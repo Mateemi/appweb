@@ -7,5 +7,5 @@ st.title ("Mon formulaire")
 st.write ("Ceci est un formulaire de contact")
 
 #Champ de saisi
-st.unput_text("Tapez votre texte :")
+st.text_input ("Tapez votre texte :")
 
