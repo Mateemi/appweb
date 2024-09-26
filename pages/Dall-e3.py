@@ -12,13 +12,13 @@ st.write(sidebar_input)
 
 #Intéraction avec OpenAI
 from openai import OpenAI
-client = OpenAI(api_key=sidebar_input)
+client = OpenAI(api_key = sidebar_input)
 
 prompt = ""
 
 image = client.images.generate(
     model="dall-e-2",
-    prompt=user_input,
+    prompt = user_input,
     size="512x512",
     quality="standard",
     n=1,
