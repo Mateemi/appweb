@@ -4,7 +4,8 @@ st.title ("Dall-e3")
 
 user_input : st.text_input ("Veuillez entrer une description de l'image que vous souhaitez générer")
 st.write(user_input)
-recherche_input : ("Veuillez entrer une description de l'image que vous souhaitez générer")
+
+recherche_input : st.sitebar.("Veuillez entrer une description de l'image que vous souhaitez générer")
 st.write(recherche_input)
 
 from openai import OpenAI
@@ -20,4 +21,3 @@ image = client.images.generate(
 )
 image_url = image.data[0].url
 print(image_url)
-
