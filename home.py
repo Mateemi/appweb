@@ -17,5 +17,11 @@ st.image ("https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,
 #Sidebar
 st.sidebar.title ("Mateo Valentin")
 
-#Video
-st.sidebar.video ("https://www.youtube.com/watch?v=xUdx4yL0sfk")
+#Video dans la sidebar
+st.sidebar.video ("https://www.youtube.com/watch?v=nhr0igKYIMQ")
+
+#Select bar
+student_grade = st.selectbox("Sélectionnez votre niveau d'étude", ["bac"], ["bac +3"], ["bac +5"])
+
+#Select slider
+age = st.select_slider ("Quel est vôtre âge ?", range (0, 99))
