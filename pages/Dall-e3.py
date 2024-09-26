@@ -3,11 +3,11 @@ import streamlit as st
 st.title ("Dall-e3")
 
 #Champ de saisie
-user_input = st.text_input("Open IA")
+user_input = st.text_input("Veuillez entrer une description de l'image que vous souhaitez générer")
 st.write(user_input)
 
 #Champ de saisie dans la sidebar (pour la clé OpenAI)
-sidebar_input = st.sidebar.text_input("Veuillez entrer une description de l'image que vous souhaitez générer :")
+sidebar_input = st.sidebar.text_input("Veuillez entrer une clé Open AI :")
 st.write(sidebar_input)
 
 #Intéraction avec OpenAI
