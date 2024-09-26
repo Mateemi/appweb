@@ -21,7 +21,7 @@ st.sidebar.title ("Mateo Valentin")
 st.sidebar.video ("https://www.youtube.com/watch?v=nhr0igKYIMQ")
 
 #Select bar
-student_grade = st.selectbox("Sélectionnez votre niveau d'étude", ["bac"], ["bac +3"], ["bac +5"])
+student_grade = st.selectbox("Sélectionnez votre niveau d'étude", ["bac", "bac +3", "bac +5"])
 
 #Select slider
 age = st.select_slider ("Quel est vôtre âge ?", range (0, 99))
