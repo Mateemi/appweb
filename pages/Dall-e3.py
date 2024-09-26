@@ -2,12 +2,11 @@ import streamlit as st
 
 st.title ("Dall-e3")
 
-user_input : st.text_input ("Open IA")
+user_input : st.text_input ("Veuillez entrer une description de l'image que vous souhaitez générer"")
 st.write(user_input)
 recherche_input : ("Veuillez entrer une description de l'image que vous souhaitez générer")
 st.write(recherche_input)
 
-#clé
 from openai import OpenAI
 st.sidebar
 client = OpenAI(api_key=OpenAIKEY)
@@ -21,3 +20,4 @@ image = client.images.generate(
 )
 image_url = image.data[0].url
 print(image_url)
+
