@@ -16,3 +16,6 @@ st.image ("https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,
 
 #Sidebar
 st.sidebar.title ("Mateo Valentin")
+
+#Video
+st.sidebar.video ("https://www.youtube.com/watch?v=xUdx4yL0sfk")
