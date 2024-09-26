@@ -14,7 +14,7 @@ st.write(sidebar_input)
 from openai import OpenAI
 client = OpenAI(api_key = sidebar_input)
 
-prompt = ""
+prompt = "temple en ruine"
 
 image = client.images.generate(
     model="dall-e-2",
